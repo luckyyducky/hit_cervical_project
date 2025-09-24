@@ -1,0 +1,15 @@
+# Datasets
+dataset/
+
+# Pretrained models
+pretrained_models/
+
+# Python virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# macOS specific files
+.DS_Store
