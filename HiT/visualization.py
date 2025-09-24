@@ -99,7 +99,7 @@ def main_worker(rank, world_size, config, distributed):
     model, model_kwargs = get_model(config['model']['name'],
                                     config['model']['params'],
                                     '')
-    model.load_state_dict(torch.load(args.weights, map_location='cpu')['model'])
+    model.load_state_dict(torch.load(args.weights, map_location='cpu', weights_only=False)['model'])
     model.to(device)
     model.eval()
 
