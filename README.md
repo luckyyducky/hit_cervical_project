@@ -11,8 +11,8 @@ Follow these steps to set up the project environment and download the necessary 
 ### 1. Clone the Repository
 Clone this repository to your local machine:
 ```bash
-git clone [https://github.com/luckyyducky/interpretable-llm-pathology.git](https://github.com/luckyyducky/interpretable-llm-pathology.git)
-cd interpretable-llm-pathology
+git clone https://github.com/luckyyducky/hit_cervical_project.git
+cd hit_cervical_project
 ```
 
 ### 2. Set Up the Python Environment
